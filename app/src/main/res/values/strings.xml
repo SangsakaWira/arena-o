@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Arena-O</string>
+    <string name="or_sign_in_with_social_media">Or Sign In with Social Media</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+</resources>

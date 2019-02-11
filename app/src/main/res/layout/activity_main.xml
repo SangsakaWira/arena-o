@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TextView android:layout_width="match_parent"
+              android:padding="40dp"
+              android:textSize="30dp"
+              android:textAlignment="center"
+              android:text="Sign Up"
+              android:layout_height="wrap_content"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+
+        <EditText android:layout_width="wrap_content"
+                  android:hint="@string/username"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                  android:background="@drawable/login_edittext"
+                   android:padding="8dp"
+                   android:src="@drawable/login_edittext"/>
+
+        <EditText android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                  android:background="@drawable/login_edittext"
+                    android:hint="@string/password"
+                   android:padding="8dp"
+                   android:src="@drawable/login_edittext"/>
+
+        <EditText android:layout_width="wrap_content"
+                  android:hint="@string/username"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:background="@drawable/login_edittext"
+                  android:padding="8dp"
+                  android:src="@drawable/login_edittext"/>
+
+        <EditText android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center"
+                  android:background="@drawable/login_edittext"
+                  android:hint="@string/password"
+                  android:padding="8dp"
+                  android:src="@drawable/login_edittext"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:padding="10dp"
+                   android:src="@drawable/login_button"/>
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:gravity="center"
+                  android:layout_height="wrap_content">
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:orientation="horizontal"
+                          android:gravity="center"
+                          android:padding="10dp"
+                          android:layout_height="wrap_content">
+
+                <TextView android:layout_width="wrap_content"
+                          android:gravity="center"
+                          android:textAlignment="center"
+                          android:text="@string/already_have_an_account"
+                          android:layout_height="wrap_content"/>
+
+                <TextView android:layout_width="wrap_content"
+                          android:gravity="center"
+                          android:textColor="@color/colorPrimaryDark"
+                          android:text="@string/sign_up"
+                          android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
